@@ -1,19 +1,19 @@
 @media (min-width: 641px) {
-	.menu__button {
-		display: none;
-	}
+  .menu__button {
+  display: none;
+  }
 
-	.title {
-		font-size: 45px;
-	}
+  .title {
+    font-size: 45px;
+  }
 }
 
 @media (max-width: 640px) {
-	.menu__list {
-		display: none;
-	}
+  .menu__list {
+    display: none;
+  }
 
-	.title {
-		font-size: 24px;
-	}
+  .title {
+    font-size: 24px;
+  }
 }
