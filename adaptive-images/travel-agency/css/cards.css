@@ -17,21 +17,25 @@
   }
 }
 
-/*@media (min-width: 641px) and (max-width: 959px) {
+@media (min-width: 641px) and (max-width: 960px) {
   
   .card {
     width: 50%;
   }
 
-  .card:nth-child(3n) {
-    width: 100%;
+  .card:nth-child(-5n + 20), .card:nth-child(-5n + 19), .card:nth-child(-5n + 18) {
+    width: 33.33%;
   }
-}*/
+}
 
-@media (min-width: 960px) and (max-width: 1280px) {
+@media (min-width: 961px) and (max-width: 1280px) {
   
   .card {
     width: 25%;
+  }
+
+  .card:nth-child(-6n + 11), .card:nth-child(-6n + 12) {
+    width: 50%;
   }
 }
 
@@ -39,5 +43,13 @@
   
   .card {
     width: 20%;
+  }
+
+  .card:nth-child(n + 6):nth-child(-n + 8), .card:nth-child(n + 14):nth-child(-n + 16) {
+    width: 33.33%;
+  }
+
+  .card:nth-child(n + 17):nth-child(-n + 20) {
+    width: 25%;
   }
 }
